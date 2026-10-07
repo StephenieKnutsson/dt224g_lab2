@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephenie Knutsson</title>
+</head>
+
+<!--BODY INKAPSULERAR ALLT SOM FINNS PÅ SIDAN-->
+    <body>
+
+        <header>
+            <img src="images/jag.webp" alt="En framskrapad ögonblicksbild på Stephenie, fem år gammal" width="500">
+            <h1>Stephenie Knutsson</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Kort om mig</a></li>
+                    <li><a href="hobby.html">Mina hobbys</a></li>
+                    <li><a href="kontakt.html">Kontakta mig</a></li>
+                </ul>
+            </nav>
+            <br>
+        </header>
+
+        <!--HUVUDINNEHÅLL-->
+        <main>
+            <h2>Kontakta mig</h2>
+            <p>Skicka ett meddelande till mig nedan!</p>
+            <br>
+
+            <form action="/submit" method="post">
+                <label for="name">Ditt namn:</label>
+                <br>
+                <input type="text" id="name" name="name">
+                <br>
+                <br>
+                <label for="email">E-postadress:</label>
+                <br>
+                <input 
+                    type="email" id="email"
+                    placeholder="namn@example.com"
+                    required
+                >
+                <br>
+                <br>
+                <label for="message">Meddelande:</label>
+                <br>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <br>
+                <button type="submit">Skicka</button>
+            </form>
+
+            <p><em>Du kan även skicka mig ett mejl <a href="mailto:stkn2600@student.miun.se">här</a>.</em></p>
+            <br>
+            <br>
+            <br>
+        </main>
+
+        <!--SIDFOT-->
+        <footer>
+            <p>© 2026 Stephenie Knutsson. 
+                <a href="kontakt.html">Kontakta mig</a>
+            </p>
+        </footer>
+    </body>
+
+</html>
