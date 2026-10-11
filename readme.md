@@ -8,10 +8,9 @@ Webbplatsen består av tre sidor där jag erbjuder dels en kort presentation av 
 
 ### Tekniker
 
-Jag har använt mig utav HTML-kod och en liten touch av CSS för att testa funktionen av <rel link> på ett redan befintigt projekt. 
+Jag har använt mig utav HTML-kod och en liten touch av CSS för att testa funktionen av <_rel link_> på ett redan befintigt projekt. 
 
-[Kolla in min webbplats på Netlify]()
-[Kolla in min webbplats på xxx]()
+Kolla in min webbplats på [Netlify](https://6acb4ac2875ca34a646b8494--papaya-klepon-edc7be.netlify.app/) och [GitHub Pages](https://stephenieknutsson.github.io/dt224g_lab2/)
 
 _Följande stycke är en del av uppgiftens examinering där jag besvarar ett gäng frågor rörande versionshantering i Git och GitHub._ 
 
